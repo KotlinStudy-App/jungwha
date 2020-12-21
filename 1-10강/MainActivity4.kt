@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
         if (numbers == thisWeekNumbers){
             Log.d(TAG, "당첨되었습니다.")
         }else{
-            Log.d(TAG, "당첨되지 않았습니다.")
+            Log.d(TAG, "당첨되지 않았습니다.") >>>MainActivity 검색했을 때 당첨되지 않았습니다 출력
+            
         }
 
         for(idx in 1..10){
