@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         botton_Log.setOnClickListener {
-            Log.d(TAG,"Hello, Kotlin")
+            Log.d(TAG,"Hello, Kotlin") >>>버튼을 클릭하면, Log 창에서 MainActivity라 검색했을때 Hello Kotlin이뜬다.
         }
 
 
