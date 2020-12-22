@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         for(idx in 1..10){
-            Log.d(TAG, "현재 숫자는 ${idx} 입니다.")
+            Log.d(TAG, "현재 숫자는 ${idx} 입니다.") >>> 변수와 문자 사이의 공간을 없애주기 위해 {}
 
         }
 
