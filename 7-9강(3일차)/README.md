@@ -1,4 +1,4 @@
-## 배열
+# 배열
 
 ```Kotlin
 var intArray:IntArray = IntArray(10)
