@@ -4,7 +4,7 @@ class 클래스명 {
   init{
   }
   var variable:String = "" //변수(프로퍼티)
-  fun function(){
+  fun function(){ //함수(메서드)
     var variable_local = ""
   }
 }
