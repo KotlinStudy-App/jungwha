@@ -38,3 +38,23 @@ override fun onActivityResult(requestCode: Int, resultCode = Int, data:Intent?){
     }
   }
   ```
+  # 스피너
+  ```Kotlin
+  val data = listOf("-선택", "월", "화", "수", "목", "금", "토", "일")
+  val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data)
+  spinner.adapter = adapter
+  ```
+  
+  
+  #### 선택한 것을 텍스트뷰에 나타내기
+  ```Kotlin
+  spinner.onItemSelectedListner = object: AdapterView.OnItemSelectedListner{
+    override fun onItemSelected(parent: AdapterView<*>?, view : View? , position: Int, id:Long){
+      val selectedValue = data[position]
+      textView.text = selectedValue
+    override fun onNothinSelected(parent:AdapterView<*>?){
+        }
+      }
+    }
+    ```
+  
